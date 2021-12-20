@@ -19,8 +19,6 @@ if __name__ == '__main__':
     while n != len(input_arr):
         checked_and_not_found = False
         found = False
-        if n > 20:
-            break
         print("n =", n)
         for current_index in range(1, len(input_arr) - n):
             found = False
